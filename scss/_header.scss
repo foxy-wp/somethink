@@ -1,0 +1,38 @@
+.header{
+  background: url("../img/background_425.png") no-repeat center;
+
+
+  &-wrapper{
+    .navbar{
+      &-brand{}
+      &-nav{
+        max-width: 770px;
+         li a {
+           font-family: 'Varela Round', sans-serif;
+           @include text-edit(18px, 1.2, 400, #ffffff);
+         }
+      }
+
+
+    }
+
+  }
+
+  .big-slider{
+    .slide1{
+      &_title{
+        @include text-edit(90px, 1.2, 400, #ffffff);
+        text-align: center;
+      }
+      &__btns{
+        display: flex;
+        justify-content: center;
+        gap:30px;
+        a{
+          font-family: 'Varela Round', sans-serif;
+          @include text-edit(30px, 1.2, 400, #ffffff);
+        }
+      }
+    }
+  }
+}

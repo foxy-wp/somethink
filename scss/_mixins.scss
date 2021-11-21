@@ -1,0 +1,11 @@
+@mixin padding-block($ptop, $pb){
+  padding-top: $ptop;
+  padding-bottom: $pb;
+}
+
+@mixin text-edit ($fs, $lH, $fW, $color){
+  font-size: $fs;
+  line-height: $lH;
+  font-weight: $fW;
+  color: $color;
+}

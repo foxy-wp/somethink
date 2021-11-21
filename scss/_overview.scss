@@ -1,0 +1,13 @@
+.overview_title{
+  @include text-edit(48px, 1.2, 400, #3a3a3a);
+}
+
+.overview-item{
+  &_title{
+    @include text-edit(18px, 24px, 400, #666666);
+  }
+  &_text{
+    font-family: 'Varela Round', sans-serif;
+    @include text-edit(16px, 24px, 400, #666666);
+  }
+}
