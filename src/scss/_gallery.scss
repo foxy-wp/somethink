@@ -1,0 +1,21 @@
+.gallery{
+  &__item{
+    padding: 70px 30px 38px 95px;
+    max-width: 600px;
+    &_title{
+      @include text-edit(48px, 1.2, 600, #f06464);
+    }
+    &_text{
+      font-family: 'Varela Round', sans-serif;
+      @include text-edit(18px, 27px, 400, #666666);
+      padding-top: 19px;
+      padding-left: 5px;
+    }
+  }
+  &__slider{
+    display: flex;
+    .black-line{
+      display: none;
+    }
+  }
+}

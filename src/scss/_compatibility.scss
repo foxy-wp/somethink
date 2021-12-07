@@ -1,0 +1,34 @@
+.compatibility{
+  background-color: #e7e7e7;
+ padding-top: 87px;
+  padding-bottom: 120px;
+
+  &-wrapper{
+    padding-inline: 100px;
+  }
+  &_title{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #666666;
+    border-bottom:  2px solid #cbcbcb;
+    padding-bottom:20px;
+  }
+  &__items{
+    display: flex;
+    gap: 51px;
+    margin-top: 33px;
+    &_item{
+      max-width: 450px;
+      line-height: 24px;
+      font-weight: 400;
+      color: #666666;
+      h3{font-size: 18px;
+      margin-bottom: 2px;}
+      p{font-family: 'Varela Round', sans-serif;
+        font-size: 16px;
+        margin-bottom: 26px;
+      }
+    }
+  }
+}

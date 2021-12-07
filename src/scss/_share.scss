@@ -1,0 +1,39 @@
+.share {
+  background-color: #262626;
+
+  &_image{
+    padding-top:70px;
+    padding-left: 8px;
+  }
+
+  &-content {
+    padding-top: 182px;
+    padding-right: 100px;
+    &_title {
+      @include text-edit(48px, 1.2, 400, #ffffff);
+      margin-bottom: 19px;
+    }
+
+    &_text {
+      @include text-edit(18px, 27px, 400, #aeaeae);
+      font-family: 'Varela Round', sans-serif;
+
+    }
+
+    &__slider {
+      display: flex;
+      margin-top: 46px;
+      img{
+        margin-top: 5px;
+      }
+      &_text {
+        @include text-edit(16px, 24px, 400, #aeaeae);
+        font-family: 'Varela Round', sans-serif;
+        margin-left: 30px;
+        padding-right: 20px;
+      }
+    }
+  }
+
+
+}

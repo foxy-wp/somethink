@@ -1,22 +1,22 @@
 {
-  "name": "layout",
+  "name": "test_boot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "gulp-sass": "^4.*",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-watch": "^5.0.1"
-  },
   "dependencies": {
-    "bootstrap": "^4.*",
-    "bootstrap-icons": "^1.5.0",
+    "browser-sync": "^2.27.6",
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
-    "swiper": "^7.0.9"
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-sass": "^5.0.0",
+    "postcss": "^8.1.0",
+    "sass": "^1.43.4"
   }
 }

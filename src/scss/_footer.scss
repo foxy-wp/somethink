@@ -1,0 +1,30 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 95px;
+
+  .all-rights {
+    @include text-edit(18px, 1.2, 400, #666666);
+    margin-top: 34px;
+    letter-spacing: 0.1px;
+  }
+
+  .search {
+    padding-left: 100px;
+    &_title {
+      @include text-edit(16px, 24px, 400, #666666);
+      font-family: 'Varela Round', sans-serif;
+    }
+    &_input{
+      width: 101px;
+      height: 48px;
+      background-color: #f06464;
+      border-radius: 5px;
+      text-align: center;
+      padding-block: 13px;;
+      a{
+        @include text-edit(16px, 24px, 400, #f4f4f4);
+        font-family: 'Varela Round', sans-serif;
+      }
+    }
+  }
+}

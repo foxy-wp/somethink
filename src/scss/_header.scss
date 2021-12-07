@@ -1,0 +1,53 @@
+.header {
+  background: url("../img/background_425.png") no-repeat center;
+
+
+  &-wrapper {
+    padding-block: 20px;
+    background-color: #de5d5d;
+
+    .navbar {
+      &-brand {
+      }
+
+      &-nav {
+        max-width: 770px;
+
+        li {
+          padding-top: 6px;
+          padding-inline: 20px;
+
+          .nav-link {
+            font-family: 'Varela Round', sans-serif;
+            @include text-edit(18px, 1.2, 400, #ffffff);
+            padding-inline: 0;
+          }
+        }
+      }
+
+
+    }
+
+  }
+
+  .big-slider {
+    @include padding-block(190px, 353px);
+    .slide1 {
+      &_title {
+        @include text-edit(90px, 1.2, 400, #ffffff);
+        text-align: center;
+      }
+
+      &__btns {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+
+        a {
+          font-family: 'Varela Round', sans-serif;
+          @include text-edit(30px, 1.2, 400, #ffffff);
+        }
+      }
+    }
+  }
+}

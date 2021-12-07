@@ -1,0 +1,26 @@
+.download {
+  background-color: #de5d5d;
+  padding-top: 170px;
+  padding-bottom: 252px;
+
+  &_image {
+    margin-left: 26%;
+    margin-top: 54px;
+  }
+
+  &__text {
+    max-width: 510px;
+    padding-left: 98px;
+    &_title {
+      @include text-edit(48px, 1.2, 600, #ffffff);
+      letter-spacing: 0.4px;
+    }
+    h3{
+      @include text-edit(24px, 1.2, 400, #ffffff);
+      font-family: 'Varela Round', sans-serif;
+      margin-top: 12px;
+    }
+  }
+
+
+}
